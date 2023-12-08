@@ -11,3 +11,7 @@ function startRound(playerSelection, computerSelection) {
         return `You lose! ${computerSelection} beats ${playerSelection}`
     }
 }
+
+const playerSelection = "rock";
+const computerSelection = getComputerChoice();
+console.log(startRound(playerSelection, computerSelection));
